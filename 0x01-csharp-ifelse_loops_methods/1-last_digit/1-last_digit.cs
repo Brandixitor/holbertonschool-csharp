@@ -10,10 +10,10 @@ class Program
         int number = rndm.Next(-10, 10);
         int lastDigit = number % 10;
         if (number > 5)
-            Console.WriteLine("{0} and is greater than 5", lastDigit);
+            Console.WriteLine("{1} and is greater than 5", lastDigit);
         else if (number == 0)
-            Console.WriteLine("{0} and is 0", lastDigit);
+            Console.WriteLine("{1} and is 0", lastDigit);
         else
-            Console.WriteLine("{0} and is less than 6 and not 0", lastDigit);
+            Console.WriteLine("{1} and is less than 6 and not 0", lastDigit);
     }
 }
