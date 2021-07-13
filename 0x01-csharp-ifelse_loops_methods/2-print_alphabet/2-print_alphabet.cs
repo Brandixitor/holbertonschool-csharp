@@ -6,10 +6,10 @@ namespace _2_print_alphabet
     {
         static void Main(string[] args)
         {
-            for (int i = 97; i <= 122; i++)
+            for (int i = 97; i < 123; i++)
             {
-                if (i != 113 && i != 101)
-                    Console.Write("{0}", Convert.ToChar(i));
+                char c = (char)i;
+                Console.Write(c);
             }
         }
     }
