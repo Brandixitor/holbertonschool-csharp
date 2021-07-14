@@ -12,6 +12,7 @@ namespace _0_print_array
             {
                 Console.WriteLine(item);
             }
+            return array;
         }
     }
 }
