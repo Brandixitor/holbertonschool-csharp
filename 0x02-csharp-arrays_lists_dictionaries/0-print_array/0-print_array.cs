@@ -12,7 +12,7 @@ using System.Text;
             return null;
         }
 
-        int[] arr = new int[size];
+        int[] tab = new int[size];
         var output = new StringBuilder();
         for (int i = 0; i < size; i++)
         {
@@ -21,11 +21,11 @@ using System.Text;
             {
                 output.Append(" ");
             }
-            arr[i] = i;
+            tab[i] = i;
         }
 
         Console.WriteLine(output);
 
-        return arr;
+        return tab;
     }
 }
