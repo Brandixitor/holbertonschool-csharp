@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 
 {
-    class Program
+    class Array
     {
-        static void Main(string[] args)
-        {
+    public static int elementAt(int[] array, int index)
+    {
             Console.WriteLine("Hello World!");
         }
     }
