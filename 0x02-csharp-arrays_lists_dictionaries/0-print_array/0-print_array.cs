@@ -1,9 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Text;
+
+
+    class Array
 {
-    class array
-    {
-        public static int[] CreatePrint(int size)
+    public static int[] CreatePrint(int size)
     {
         if (size < 0)
         {
@@ -11,7 +12,7 @@ using System.Collections.Generic;
             return null;
         }
 
-        int[] tab = new int[size];
+        int[] arr = new int[size];
         var output = new StringBuilder();
         for (int i = 0; i < size; i++)
         {
@@ -20,11 +21,11 @@ using System.Collections.Generic;
             {
                 output.Append(" ");
             }
-            tab[i] = i;
+            arr[i] = i;
         }
 
         Console.WriteLine(output);
 
-        return tab;
+        return arr;
     }
 }
