@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-
-namespace _0_print_array
 {
     class array
     {
