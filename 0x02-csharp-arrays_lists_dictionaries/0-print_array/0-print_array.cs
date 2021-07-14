@@ -7,7 +7,11 @@ namespace _0_print_array
     {
         public static int[] CreatePrint(int size)
         {
-            Console.WriteLine("Hello World!");
+            int[] array = { 1, 2, 3, 4, 5 };
+            foreach (var item in array)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
