@@ -1,12 +1,10 @@
 ﻿using System;
 
-namespace _5_max_integer
-{
-    class Program
+
+    class List
     {
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
         }
     }
-}
