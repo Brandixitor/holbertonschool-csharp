@@ -7,12 +7,11 @@ namespace _0_print_array
     {
         public static int[] CreatePrint(int size)
         {
-            int[] array = { 1, 2, 3, 4, 5 };
-            foreach (var item in array)
+            if (size < 0)
             {
-                Console.WriteLine(item);
+                Console.WriteLine("Size cannot be negative");
+                return null;
             }
-            return array;
         }
     }
 }
