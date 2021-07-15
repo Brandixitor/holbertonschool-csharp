@@ -8,7 +8,7 @@ class List
 
         foreach (var elem in list1)
         {
-            if (! list2.Contains(elem))
+            if (!list2.Contains(elem))
             {
                 List3.Add(elem);
             }
