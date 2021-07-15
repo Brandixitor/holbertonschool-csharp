@@ -1,10 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
 
 
-    class Program
+    class MyStack
     {
-        static void Main(string[] args)
-        {
+    public static Stack<string> Info(Stack<string> aStack, string newItem, string search)
+    {
             Console.WriteLine("Hello World!");
         }
     }
