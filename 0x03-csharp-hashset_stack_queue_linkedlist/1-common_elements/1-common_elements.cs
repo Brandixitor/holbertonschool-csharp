@@ -3,8 +3,9 @@ using System.Collections.Generic;
 
     class List
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+    public static List<int> CommonElements(List<int> list1, List<int> list2)
+    {
+        List<int> List3 = new List<int>();
+
     }
+}
