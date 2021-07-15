@@ -24,3 +24,4 @@ class MyQueue
         }
         return aQueue;
     }
+}
