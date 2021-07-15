@@ -1,12 +1,9 @@
 ﻿using System;
 
-namespace _7_linkedlist_add
-{
-    class Program
+    class LList
     {
-        static void Main(string[] args)
-        {
+    public static LinkedListNode<int> Add(LinkedList<int> myLList, int n)
+    {
             Console.WriteLine("Hello World!");
         }
     }
-}
