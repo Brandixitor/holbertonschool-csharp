@@ -2,8 +2,8 @@
 
     class LList
     {
-        static void Main(string[] args)
-        {
+    public static LinkedList<int> CreatePrint(int size)
+    {
             Console.WriteLine("Hello World!");
         }
     }
