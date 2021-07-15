@@ -4,6 +4,15 @@ class List
 {
     public static List<int> DifferentElements(List<int> list1, List<int> list2)
     {
-        Console.WriteLine("Hello World!");
+        List<int> List3 = new List<int>();
+
+        foreach (var elem in list1)
+        {
+            if (! list2.Contains(elem))
+            {
+                List3.Add(elem);
+            }
+        }
+        return List3;
     }
 }
