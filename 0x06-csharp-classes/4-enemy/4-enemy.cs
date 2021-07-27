@@ -7,7 +7,7 @@ namespace Enemies
     /// </summary>
     public class Zombie
     {
-        // Private Field that defines the health of azombie.
+        // Private Field that defines the health of a zombie.
         private int health;
         // Private Field that defines the name of a zombie.
         private string name = "(No name)";
