@@ -15,6 +15,7 @@ namespace Enemies
             health = 0;
         }
 
+        /// <summary>Initializes a new instance of the <see cref="Zombie"/> class and checks if value is greater than 0.</summary>
         public Zombie(int value)
         {
             if (value < 0)
