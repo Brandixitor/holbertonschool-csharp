@@ -44,5 +44,10 @@ namespace Enemies
             return health;
         }
 
+        /// <summary> Format: Zombie name: name / Total Health: health </summary>
+        public override string ToString()
+        {
+            return($"Zombie Name: {name} / Total Health: {health}");
+        }
     }
 }
